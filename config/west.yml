@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: cormoran
+      url-base: https://github.com/cormoran
     - name: tokyo2006
       url-base: https://github.com/tokyo2006
     - name: englmaxi
