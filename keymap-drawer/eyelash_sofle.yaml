@@ -32,9 +32,9 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: Symbol}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - G
+  - {t: G, h: LEFT META}
   - $$mdi:arrow-left-bold$$
-  - H
+  - {t: H, h: RIGHT META}
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: Symbol}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
