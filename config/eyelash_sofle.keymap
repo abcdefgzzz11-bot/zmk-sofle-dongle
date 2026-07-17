@@ -151,11 +151,11 @@
 
         FUNTION_L {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2      &kp F3           &kp F4           &kp F5         &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp F11
-&trans      &kp GRAVE        &mkp LCLK   &kp END          &kp RETURN       &kp HOME       &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp F12
-&trans      &kp HOME         &trans      &trans           &kp PAGE_DOWN    &kp ENTER      &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP      &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &kp DELETE  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp PAGE_UP    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans      &trans           &trans           &trans         &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp GRAVE   &kp F1         &kp F2      &kp F3           &kp F4           &kp F5         &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp F11
+&trans      &kp GRAVE      &mkp LCLK   &kp END          &kp RETURN       &kp HOME       &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp F12
+&kp CAPS    &kp HOME       &trans      &trans           &kp PAGE_DOWN    &kp ENTER      &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP      &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp GLOBE   &kp BACKSPACE  &kp DELETE  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp PAGE_UP    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
+&kp C_MUTE  &trans         &trans      &trans           &trans           &trans         &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "FunctionL";
