@@ -124,11 +124,11 @@
 
         MAIN {
             bindings = <
-&kp ESC           &kp N1                  &kp N2              &kp N3         &kp N4                      &kp N5           &kp UP_ARROW     &kp N6          &kp N7                &kp N8         &kp N9               &kp N0                           &kp MINUS
-&kp EQUAL         &kp Q                   &kp W               &kp E          &kp R                       &kp T            &kp DOWN_ARROW   &kp Y           &kp U                 &kp I          &kp O                &kp P                            &kp BSLH
-&kp LEFT_CONTROL  &hml_kp LEFT_CONTROL A  &hml_kp LEFT_ALT S  &hml_mo 4 D    &hml_kp LEFT_SHIFT F        &kp G            &kp LEFT_ARROW   &kp H           &hmr_kp LEFT_SHIFT J  &hmr_mo 4 K    &hmr_kp RIGHT_ALT L  &hmr_kp RIGHT_CONTROL SEMICOLON  &kp APOS
-&kp LSHFT         &kp Z                   &kp X               &kp C          &kp V                       &kp B            &kp RIGHT_ARROW  &kp N           &kp M                 &kp COMMA      &kp DOT              &kp FSLH                         &kp RIGHT_SHIFT
-&kp K_MUTE        &kp LEFT_ALT            &mo 2               &hml_mo 5 TAB  &hml_kp LEFT_CONTROL SPACE  &kp LEFT_META    &kp ENTER        &kp RIGHT_META  &kp ENTER             &kp BACKSPACE  &mo 3                &kp RIGHT_ALT
+&kp ESC           &kp N1                  &kp N2              &kp N3         &kp N4                      &kp N5                 &kp UP_ARROW     &kp N6                &kp N7                &kp N8         &kp N9               &kp N0                           &kp MINUS
+&kp EQUAL         &kp Q                   &kp W               &kp E          &kp R                       &kp T                  &kp DOWN_ARROW   &kp Y                 &kp U                 &kp I          &kp O                &kp P                            &kp BSLH
+&kp LEFT_CONTROL  &hml_kp LEFT_CONTROL A  &hml_kp LEFT_ALT S  &hml_mo 4 D    &hml_kp LEFT_SHIFT F        &hml_kp LEFT_META G    &kp LEFT_ARROW   &hmr_kp RIGHT_META H  &hmr_kp LEFT_SHIFT J  &hmr_mo 4 K    &hmr_kp RIGHT_ALT L  &hmr_kp RIGHT_CONTROL SEMICOLON  &kp APOS
+&kp LSHFT         &kp Z                   &kp X               &kp C          &kp V                       &kp B                  &kp RIGHT_ARROW  &kp N                 &kp M                 &kp COMMA      &kp DOT              &kp FSLH                         &kp RIGHT_SHIFT
+&kp K_MUTE        &kp LEFT_ALT            &mo 2               &hml_mo 5 TAB  &hml_kp LEFT_CONTROL SPACE  &kp LEFT_META          &kp ENTER        &kp RIGHT_META        &kp ENTER             &kp BACKSPACE  &mo 3                &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -146,6 +146,7 @@
             >;
 
             label = "GAMING";
+            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
 
         FUNTION_L {
