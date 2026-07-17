@@ -159,7 +159,7 @@
             >;
 
             display-name = "FunctionL";
-            label = "Function L";
+            label = "FUNTION_L";
         };
 
         FUNCTION_R {
@@ -171,7 +171,7 @@
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
-            label = "Function R";
+            label = "FUNCTION_R";
         };
 
         SYMBOL {
@@ -183,7 +183,7 @@
 &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &kp DELETE        &trans             &trans
             >;
 
-            label = "Symbol";
+            label = "SYMBOL";
         };
 
         NUMBERS {
@@ -195,7 +195,7 @@
 &trans      &trans           &trans           &trans           &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "Numbers";
+            label = "NUMBERS";
         };
     };
 };
