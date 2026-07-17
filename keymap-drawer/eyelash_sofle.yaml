@@ -30,13 +30,13 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: Symbol}
+  - {t: D, h: SYMBOL}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: G, h: LEFT META}
   - $$mdi:arrow-left-bold$$
   - {t: H, h: RIGHT META}
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: Symbol}
+  - {t: K, h: SYMBOL}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - .
@@ -55,15 +55,15 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - MUTE
   - $$mdi:apple-keyboard-option$$
-  - Function L
-  - {t: '$$mdi:keyboard-tab$$', h: Numbers}
-  - {t: '$$mdi:keyboard-space$$', h: Function L}
+  - FUNTION_L
+  - {t: '$$mdi:keyboard-tab$$', h: NUMBERS}
+  - {t: '$$mdi:keyboard-space$$', h: FUNTION_L}
   - LEFT META
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - RIGHT META
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - Function R
+  - FUNCTION_R
   - $$mdi:apple-keyboard-option$$
   GAMING:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Function L:
+  FUNTION_L:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Function R:
+  FUNCTION_R:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -260,7 +260,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  Symbol:
+  SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -325,7 +325,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Numbers:
+  NUMBERS:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP NUMLOCK
