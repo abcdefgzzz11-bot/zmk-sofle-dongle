@@ -52,6 +52,24 @@
             #sensor-binding-cells = <0>;
             tap-ms = <0>;
         };
+
+        lcmd_or_hyper: lcmd_or_hyper {
+            compatible = "zmk,behavior-tap-dance";
+            label = "LCMD_OR_HYPER";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD>, <&kp LS(LA(LC(LEFT_COMMAND)))>;
+
+            tapping-term-ms = <175>;
+        };
+
+        rcmd_or_hyper: rcmd_or_hyper {
+            compatible = "zmk,behavior-tap-dance";
+            label = "RCMD_OR_HYPER";
+            #binding-cells = <0>;
+            bindings = <&kp RCMD>, <&kp RS(RA(RC(RCMD)))>;
+
+            tapping-term-ms = <175>;
+        };
     };
 
     hml_kp: hml_kp {
@@ -128,7 +146,7 @@
 &kp EQUAL         &kp Q                   &kp W               &kp E          &kp R                 &kp T                  &kp DOWN_ARROW   &kp Y                 &kp U                 &kp I          &kp O                &kp P                            &kp BSLH
 &kp LEFT_CONTROL  &hml_kp LEFT_CONTROL A  &hml_kp LEFT_ALT S  &hml_mo 4 D    &hml_kp LEFT_SHIFT F  &hml_kp LEFT_META G    &kp LEFT_ARROW   &hmr_kp RIGHT_META H  &hmr_kp LEFT_SHIFT J  &hmr_mo 4 K    &hmr_kp RIGHT_ALT L  &hmr_kp RIGHT_CONTROL SEMICOLON  &kp APOS
 &kp LSHFT         &kp Z                   &kp X               &kp C          &kp V                 &kp B                  &kp RIGHT_ARROW  &kp N                 &kp M                 &kp COMMA      &kp DOT              &kp FSLH                         &kp RIGHT_SHIFT
-&kp K_MUTE        &kp LEFT_ALT            &mo 2               &hml_mo 5 TAB  &hml_mo 2 SPACE       &kp LEFT_META          &kp ENTER        &kp RIGHT_META        &kp ENTER             &kp BACKSPACE  &mo 3                &kp RIGHT_ALT
+&kp K_MUTE        &kp LEFT_ALT            &mo 2               &hml_mo 5 TAB  &hml_mo 2 SPACE       &lcmd_or_hyper         &kp ENTER        &rcmd_or_hyper        &kp ENTER             &kp BACKSPACE  &mo 3                &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
