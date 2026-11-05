@@ -58,9 +58,9 @@ layers:
   - FUNTION_L
   - {t: '$$mdi:keyboard-tab$$', h: NUMBERS}
   - {t: '$$mdi:keyboard-space$$', h: FUNTION_L}
-  - LEFT META
+  - '&lcmd_or_hyper'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - RIGHT META
+  - '&rcmd_or_hyper'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - FUNCTION_R
